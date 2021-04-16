@@ -188,7 +188,6 @@ def pilih():
     elif unikers == '2':
         os.system('clear')
         print
-        print '«-----------------DataReset---------------»'
                 jalan('\033[1;96m=10%')
                 jalan("\033[1;96m==20%")
                 jalan('\033[1;96m===30%')
