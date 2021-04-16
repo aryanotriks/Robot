@@ -149,7 +149,7 @@ def menu():
         time.sleep(1)
         logmen()
     try:
-        r = requests.get("https://graph.facebook.com/me?access_token="+token, headers=header)
+        r = requests.get("https://graph.facebook.com/me?access_token="+token)
         a = json.loads(r.text)
         name = a["name"]
     except KeyError:
