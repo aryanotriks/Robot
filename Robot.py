@@ -188,17 +188,6 @@ def pilih():
     elif unikers == '2':
         os.system('clear')
         print
-                jalan('\033[1;96m=10%')
-                jalan("\033[1;96m==20%")
-                jalan('\033[1;96m===30%')
-                jalan('\033[1;96m====40%')
-                jalan("\033[1;96m=====50%")
-                jalan("\033[1;96m======60%")
-                jalan('\033[1;96m=======70%')
-                jalan('\033[1;96m========80%')
-                jalan('\033[1;96m=========90%')
-                jalan('\033[1;96m==========100%')
-                jalan('\033[1;91mCloning Data Reset')
         os.system('git pull origin master')
         raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
         menu()
