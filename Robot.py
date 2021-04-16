@@ -191,17 +191,16 @@ def pilih():
 
 
 def super():
-    global token
-    os.system('clear')
-    try:
-        toket = open('logfuck.txt', 'r').read()
-    except IOError:
-        print '\x1b[1;91mToken invalid'
-        os.system('rm -rf logfuck.txt')
-        time.sleep(1)
-        logmen()
-
-    os.system('clear')
+  global token
+	os.system("clear")
+	try:
+		token=open(".logfuck.txt","r").read()
+	except IOError:
+		print("[!] Token Error. Token Not Working")
+		os.system("rm -rf .logfuck.txt")
+		time.sleep(1)
+		logmen()
+	os.system("clear")
     print
     print '\x1b[1;32;40m[type1] \x1b[1;33;41mHack From Friend List'
     print '\x1b[1;32;40m[type2] \x1b[1;33;42mHack From Public ID'
