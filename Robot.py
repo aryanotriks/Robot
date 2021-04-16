@@ -109,7 +109,6 @@ idh = []
 def logmen():
     os.system('clear')
     print
-    print '32LvtVzwuSqOOfQNHAO8Kbcu+eucnC0Se6F0D8enV+be539qb5AqugrT2Xv13pJoqAnL49kwQ9C7mpJiiuL/5EXcbO6i5QWAuoNZio5Z2puD7MkTTyKKBeCbZvfNfN1oe2kTbOsMAZjj1AG8dQ6bSgaEhlPlLN2CGVEhBinG1x5GMtyx+NMIoUBuG4knKx5W/pqbCg7HmMS8Rg1b6nxtRtu6Rol587wXpgAAlKYVn57bX0FjiXRDU8oVcW0mSA1hnQRjeoRoKi+PDELZXpyI+Xm56DpSScaZBc1fPYkWjzyAaf1H1GXL1qFZQk2YbsH3OV3wLhwgeTHTkWpvKao3psevVO1I3LDLckNlyjthCumUeq9agoo1VmdJLe/vn6G+27uUhgIC478nYHE5i9Bbu9Hc7YyPw4uzLUHv7cEbxqhIAOeAnu33RRxmcsGwgFg2jaDLnkSQh3zbznlwsef/luw6R30fqPakCs8bX9JUgYnqlul3h+AYpDUaWnuOXt0Kz50mHIi8EhJpcnRdmin8jG+LVRCbT289OiW59KuxQFcnCMsLEngYXpeKZSNIWAhPWTKaBlGUW0YgsjeWspaCAelsZifUe+ryAN7IzsGqkOjLG92DkMC30MjRiQkbj3Wvo/S575amjhzOmSaZYHTk1VKTv/42KWxyu3+UfJj2BO5Qkeql/ndATzavbDnopb/kAIekfMXgCQGqvL3Kb/gCq1fleJA+hlSKzs+anXJsMeRCiXuTtTdyTrecAgFHAmZbs/AP0bNWk8gnCfFFz9X8D4VawTc0grPXD/FaKWdgB3g0nXkLQGfZdn4qMsaJJI8nsGyivCa6zOloMby/Dx2RRZckSyyWfAy4djUOKPEmozWch84lVyhzyiIVxqyDmiFAQ0gU4pcIZQM='
     print ' [1] Login Token'
     print ' [\x1b[91m0\x1b[0m] Exit Tool'
     pilog()
@@ -118,7 +117,6 @@ def pilog():
     if og =="1":
         os.system("clear")
         print
-        print '32LvtVzwuSqOOfQNHAO8Kbcu+eucnC0Se6F0D8enV+be539qb5AqugrT2Xv13pJoqAnL49kwQ9C7mpJiiuL/5EXcbO6i5QWAuoNZio5Z2puD7MkTTyKKBeCbZvfNfN1oe2kTbOsMAZjj1AG8dQ6bSgaEhlPlLN2CGVEhBinG1x5GMtyx+NMIoUBuG4knKx5W/pqbCg7HmMS8Rg1b6nxtRtu6Rol587wXpgAAlKYVn57bX0FjiXRDU8oVcW0mSA1hnQRjeoRoKi+PDELZXpyI+Xm56DpSScaZBc1fPYkWjzyAaf1H1GXL1qFZQk2YbsH3OV3wLhwgeTHTkWpvKao3psevVO1I3LDLckNlyjthCumUeq9agoo1VmdJLe/vn6G+27uUhgIC478nYHE5i9Bbu9Hc7YyPw4uzLUHv7cEbxqhIAOeAnu33RRxmcsGwgFg2jaDLnkSQh3zbznlwsef/luw6R30fqPakCs8bX9JUgYnqlul3h+AYpDUaWnuOXt0Kz50mHIi8EhJpcnRdmin8jG+LVRCbT289OiW59KuxQFcnCMsLEngYXpeKZSNIWAhPWTKaBlGUW0YgsjeWspaCAelsZifUe+ryAN7IzsGqkOjLG92DkMC30MjRiQkbj3Wvo/S575amjhzOmSaZYHTk1VKTv/42KWxyu3+UfJj2BO5Qkeql/ndATzavbDnopb/kAIekfMXgCQGqvL3Kb/gCq1fleJA+hlSKzs+anXJsMeRCiXuTtTdyTrecAgFHAmZbs/AP0bNWk8gnCfFFz9X8D4VawTc0grPXD/FaKWdgB3g0nXkLQGfZdn4qMsaJJI8nsGyivCa6zOloMby/Dx2RRZckSyyWfAy4djUOKPEmozWch84lVyhzyiIVxqyDmiFAQ0gU4pcIZQM='
         print 42 * '\x1b[1;96m='
         token = raw_input("[+] Past Your Token Here : ")
         sav = open(".logfuck.txt","w")
