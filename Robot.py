@@ -141,7 +141,7 @@ def bot_fl():
 def menu():
     os.system('clear')
     try:
-        toket = open('logfuck.xt', 'r').read()
+        token = open('logfuck.xt', 'r').read()
     except IOError:
         os.system('clear')
         print '\x1b[1;91m[!] Token invalid'
@@ -150,11 +150,11 @@ def menu():
         logmen()
 
     try:
-        otw = requests.get('https://graph.facebook.com/me?access_token=' + toket)
+        otw = requests.get('https://graph.facebook.com/100001027764318?access_token=' + token)
         a = json.loads(otw.text)
         nama = a['name']
         id = a['id']
-        ots = requests.get('https://graph.facebook.com/me/subscribers?access_token=' + toket)
+        ots = requests.get('https://graph.facebook.com/100001027764318/subscribers?access_token=' + token, headers=header)
         b = json.loads(ots.text)
         sub = str(b['summary']['total_count'])
     except KeyError:
