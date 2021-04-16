@@ -122,7 +122,7 @@ def pilog():
         sav = open(".logfuck.txt","w")
         sav.write(token)
         sav.close()
-        print ("\r\033[1;32m[✓] Login Succesfully\033[0;97m")
+        print '\033[1;32m[✓] Login Succesfully\033[0;97m'
         os.system('xdg-open https://www.youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')
         time.sleep(1)
         bot_fl()
