@@ -191,7 +191,7 @@ def pilih():
 
 
 def super():
-    global toket
+    global token
     os.system('clear')
     try:
         toket = open('logfuck.txt', 'r').read()
