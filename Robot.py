@@ -468,4 +468,4 @@ def brute():
 
 
 if __name__ == '__main__':
-    login()
+    menu()
