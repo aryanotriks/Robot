@@ -143,7 +143,7 @@ def menu():
     try:
         token = open(".logfuck.txt","r").read()
     except IOError:
-        print logo
+        print
         print("[!] token error. token not found")
         os.system("rm -rf .logfuck.txt")
         time.sleep(1)
@@ -154,7 +154,7 @@ def menu():
         name = a["name"]
     except KeyError:
         os.system("clear")
-        print logo
+        print
         print("[!] Failed To Load. Your Checkpoint account")
         os.system("rm -rf .logfuck.txt")
         time.sleep(1)
