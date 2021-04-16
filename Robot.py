@@ -139,33 +139,26 @@ def bot_fl():
     menu()
 
 def menu():
-    os.system('clear')
+    os.system("clear")
     try:
-        token = open('logfuck.xt', 'r').read()
+        token = open(".logfuck.txt","r").read()
     except IOError:
-        os.system('clear')
-        print '\x1b[1;91m[!] Token invalid'
-        os.system('rm -rf logfuck.txt')
+        print logo
+        print("[!] token error. token not found")
+        os.system("rm -rf .logfuck.txt")
         time.sleep(1)
         logmen()
-
     try:
-        otw = requests.get('https://graph.facebook.com/100001027764318?access_token=' + token)
-        a = json.loads(otw.text)
-        nama = a['name']
-        id = a['id']
-        ots = requests.get('https://graph.facebook.com/100001027764318/subscribers?access_token=' + token, headers=header)
-        b = json.loads(ots.text)
-        sub = str(b['summary']['total_count'])
+        r = requests.get("https://graph.facebook.com/me?access_token="+token, headers=header)
+        a = json.loads(r.text)
+        name = a["name"]
     except KeyError:
-        os.system('clear')
-        print '\x1b[1;91mYour Account is on Checkpoint'
-        os.system('rm -rf logfuck.txt')
+        os.system("clear")
+        print logo
+        print("[!] Failed To Load. Your Checkpoint account")
+        os.system("rm -rf .logfuck.txt")
         time.sleep(1)
         logmen()
-    except requests.exceptions.ConnectionError:
-        print '\x1b[1;92mThere is no internet connection'
-        keluar()
 
     os.system('clear')
     print
