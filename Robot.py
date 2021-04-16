@@ -162,9 +162,6 @@ def menu():
 
     os.system('clear')
     print
-    print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;32;40m[*] Name\x1b[1;32;40m: ' + nama + '  \t   \x1b[1;36;40m\xe2\x95\x91'
-    print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;33;40m[*] ID  \x1b[1;34;40m: ' + id + '        \x1b[1;36;40m\xe2\x95\x91'
-    print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;36;40m[*] Subs\x1b[1;34;40m: ' + sub + '                      \x1b[1;36;40m\xe2\x95\x91'
     print '\x1b[1;32;40m[1] \x1b[1;33;41mHack Facebook Accounts'
     print '\x1b[1;32;40m[2] \x1b[1;33;42mUpdate Mr-Robot Tool'
     print '\x1b[1;32;40m[0] \x1b[1;33;43mLog out'
