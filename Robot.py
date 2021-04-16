@@ -108,7 +108,7 @@ idh = []
 
 def logmen():
     os.system('clear')
-    print logo
+    print logo1
     print ' [1] Login Token'
     print ' [\x1b[91m0\x1b[0m] Exit Tool'
     pilog()
