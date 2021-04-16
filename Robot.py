@@ -144,13 +144,13 @@ def bot_fl():
 def menu():
     os.system('clear')
     try:
-        toket = open('login.txt', 'r').read()
+        toket = open('logfuck.txt', 'r').read()
     except IOError:
         os.system('clear')
         print '\x1b[1;91m[!] Token invalid'
-        os.system('rm -rf login.txt')
+        os.system('rm -rf logfuck.txt')
         time.sleep(1)
-        login()
+        logmen()
 
     try:
         otw = requests.get('https://graph.facebook.com/me?access_token=' + toket)
