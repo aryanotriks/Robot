@@ -129,7 +129,7 @@ def pilog():
     elif og =="0":
         exit()
     else:
-        print ("[!] Wrong Input Select")
+        print '[!] Wrong Input Select'
         pilog()
         
 def bot_fl():
@@ -172,7 +172,7 @@ def menu():
 
     os.system('clear')
     print logo
-    print 
+    print logo1
     print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;32;40m[*] Name\x1b[1;32;40m: ' + nama + '  \t   \x1b[1;36;40m\xe2\x95\x91'
     print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;33;40m[*] ID  \x1b[1;34;40m: ' + id + '        \x1b[1;36;40m\xe2\x95\x91'
     print '   \x1b[1;36;40m      \xe2\x95\x91\x1b[1;36;40m[*] Subs\x1b[1;34;40m: ' + sub + '                      \x1b[1;36;40m\xe2\x95\x91'
